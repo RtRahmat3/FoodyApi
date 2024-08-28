@@ -1,8 +1,8 @@
 function Card({ data }) {
   return (
-    <div className="card bg-white shadow-md rounded-lg overflow-hidden cursor-pointer py-2 px-2 ">
+    <div className="card bg-white shadow-md rounded-lg overflow-hidden cursor-pointer py-2 m-2 px-2">
       <img
-        className="w-full h-48 object-cover rounded-md hover:scale-105"
+        className="w-full h-60 object-cover rounded-md hover:scale-105"
         src={data.strMealThumb}
         alt={data.strMeal}
       />

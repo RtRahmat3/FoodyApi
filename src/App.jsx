@@ -18,8 +18,8 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url('src/images/bg.food.jpeg')] bg-cover bg-center h-[100%] m-2 border-t-8 border-indigo-500 border-b-8 ">
-        <div className="flex flex-col bg-[url('src/images/bghero.jpg')] items-center justify-center bg-indigo-200 border rounded-sm bg-cover bg-center">
+      <div className="bg-[url('src/images/bg.food.jpeg')] bg-cover bg-center h-[100%] m-3 border-t-8 border-indigo-500 border-b-8 flex items-center justify-center flex-col">
+        <div className="flex flex-col bg-cover bg-center">
           <div>
             <h1 className="text-center text-5xl text-orange-500 font-bold m-5">
               Khai Dai <br />
@@ -42,7 +42,7 @@ function App() {
           </div>
         </div>
 
-        <div className="grid grid-cols-3 gap-2 m-5">
+        <div className="grid grid-cols-3 gap-2 m-4 ">
           {meals && meals.length > 0 ? (
             meals.map((meal, index) => (
               <Card data={meal} key={index} index={1} />
