@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <div className="bg-[url('src/images/bg.food.jpeg')] bg-cover bg-center h-[100%] m-3 border-t-8 border-indigo-500 border-b-8 flex items-center justify-center flex-col">
+      <div className="bg-[url('src/images/bg.food.jpeg')] bg-cover bg-black bg-center h-[100%] m-3 border-t-8 border-indigo-500 border-b-8 flex items-center justify-center flex-col">
         <div className="flex flex-col bg-cover bg-center">
           <div>
             <h1 className="text-center text-5xl text-orange-500 font-bold m-5">
